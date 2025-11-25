@@ -1,0 +1,565 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+}
+
+@font-face {
+    font-family:Mono;
+    src: url(fonts/MomoTrustDisplay-Regular.ttf);
+}
+
+body {
+    background-color: #013206;
+}
+
+hr{
+    border-color: #01570a;
+    border-width: 1px;
+    border-style: dashed;
+    margin-bottom: 2em;
+}
+
+/* first-hero */
+
+#intro h1{
+     position: relative;
+     font-size: 4em;
+     color: white;
+     font-family: Mono;
+     padding-top: 1.5em;
+     padding-left: 1em;
+}
+
+#intro p{
+    font-size: 2em;
+    color: white;
+    font-family: Mono;
+    padding-left: 2em;
+}
+
+.first-hero{
+    position: relative;
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 40vh;
+    min-width: auto;
+}
+
+/* second-hero */
+
+.second-hero{
+    display: flex;
+    justify-content: space-between;
+    gap: 20em;
+    font-family: Mono;
+    background-color: #001902;
+}
+
+#visuals div{
+    padding-left: 10em;
+    padding-top: 2em;
+    color: #ffffff8d;
+}
+
+#visuals .vs-head{
+    font-size: 1.2em;
+    padding-bottom: 5px;
+}
+
+#visuals .data{
+    font-size: 2.3em;
+    text-decoration: none;
+}
+
+#visuals .data-dp{
+    font-weight: 200;
+    font-size: 0.8em;
+    width: 20em;
+}
+
+#descriptions{
+    color:#ffffff8d ;
+    width: 70em;
+    text-align: left;
+    padding-top: 9em;
+    padding-right: 8em;
+}
+
+/* third-hero */
+
+.third-hero{
+    height: auto;
+}
+
+.third-hero h1{
+     position: relative;
+     font-size: 4em;
+     color: white;
+     font-family: Mono;
+     text-align: center;
+     top: 20px;
+}
+
+
+.causes-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 5em;
+    gap: 3.5em;
+}
+
+
+.third-hero img{
+    border-radius: 5px;
+    height: 35vh;
+    width: 30vh;
+}
+
+.causes-img a{
+    text-decoration: none;
+    color: #d3d3d3;
+    font-family: Mono;
+    font-size: 1.3em;
+    padding: 1em;
+    text-align: center;
+}
+
+.causes-img h3{
+    padding: 1em;
+}
+
+/* interconnected-hero */
+
+.interconnected{
+    background-color: #001902;
+    height: auto;
+}
+
+
+.interconnected-content{
+   display: flex;
+   justify-content: center;
+}
+
+
+.interconnected p{
+    color: #d3d3d3;
+    width: 50%;
+    font-size: 1.2em;
+    font-family: Mono;
+    text-align: justify; 
+    margin-top: 2em;
+    font-weight: 0;
+    margin-bottom: 4em;
+}
+
+.interconnected b{
+    color: rgb(118, 162, 104);
+}
+
+/* fourth-hero */
+
+.fourth-hero{
+     height: 75vh;
+}
+
+.fourth-hero div{
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+}
+
+.fourth-hero h1{
+    color:white;
+    font-family: Mono;
+}
+
+.fourth-hero p{
+    color: #d3d3d3;
+    width: 50%;
+    font-size: 1.2em;
+    font-family: Mono;
+    text-align: justify; 
+    margin-top: 2em;
+    font-weight: 0;
+    margin-bottom: 4em;
+}
+
+
+.fourth-hero-bullets div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #001902;
+    padding: 1.3em;
+    border-radius: 9px;
+}
+
+.fourth-hero-bullets h2{
+    color: #d3d3d3;
+    font-family: Mono;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+
+.fourth-hero-bullets li{
+    list-style: none;
+    width: 30em;
+    color: #d3d3d3;
+    font-family: Mono;
+    margin: 0;
+}
+
+.fourth-hero-bullets ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+.fourth-hero-bullets a{
+    color: gray;
+    font-size: 10px;
+    background-color: black;
+
+}
+
+/* fifth-hero */
+
+.fifth-hero{
+    background-color: #001902;
+    height: 42vh;
+}
+
+.fifth-hero h1{
+    color:white;
+    font-family: Mono;
+    text-align: center;
+    padding-top: 1.2em;
+}
+
+.fifth-hero p{
+    color: #d3d3d3;
+    width: 50%;
+    font-size: 1.2em;
+    font-family: Mono;
+    text-align: justify; 
+    margin-top: 2em;
+    font-weight: 0;
+    margin-bottom: 4em;
+}
+
+.fifth-hero-descrip{
+    display: flex;
+    justify-content: center;
+}
+
+/* about us page */
+
+.about-us-header {
+    color: white;
+    font-family: Mono;
+    text-align: center;
+    padding: 2em;
+}
+
+.about-us-header p{
+    width: 50vh;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+.research-objective{
+    font-family: Mono;
+    color: white;
+    text-align: center;
+}
+
+.members h1{
+    font-family: Mono;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    padding-bottom: 10px;
+    padding-top: 25px;
+}
+
+.research-objective h1{
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+
+.research-objective p{
+    font-size:1.3em ;
+    width: 90vh;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4em;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.pictures div p{
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    font-family: Mono;
+}
+
+.pictures img{
+    border-radius: 10px;
+    height: 40vh;
+    width: 35vh;
+}
+
+/* source page */
+
+.Refference h1{
+    font-family: Mono;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    padding-bottom: 10px;
+    padding-top: 25px;
+}
+
+.Refference .container-links{
+    display: flex;
+    justify-content: center;
+    width: 65vh;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.Refference .ul-links{
+    color: rgb(255, 255, 255);
+}
+
+.Refference li{
+    padding-bottom: 2.5em;
+}
+
+.Refference .source-links{
+    color: white;
+    font-size: 1em;
+    font-family: Mono;
+    
+}
+
+body a:hover {
+    color: #60e86e;
+}
+
+/* footer */
+
+footer{
+    color: #ffffff8d;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.3em;
+}
+
+footer .links{
+    padding-right: 10px;
+}
+
+footer .data-footer{
+    text-decoration: underline;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+footer .Qoutes-Project{
+    text-align: center;
+    flex: 1;
+    margin-left: 20px;
+}
+
+/* button */
+
+.home-page-button{
+    padding-top: 5em;
+    padding-bottom: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.home-page-button button{
+    border-radius: 3px;
+    border: none;
+    color: white;
+    background-color: #20a72e;
+    padding: 10px;
+    font-size: 0.9em;
+    font-family: Mono;
+}
+
+button:hover{
+    color: #60e86e;
+    background-color: #01640b;
+}
+
+/*  MOBILE RESPONSIVE   */
+@media (max-width: 768px) {
+
+    /* GENERAL */
+    body {
+        overflow-x: hidden;
+    }
+
+    #intro h1 {
+        font-size: 2.1em;
+        padding-left: 0.2em;
+        padding-right: 5px;
+        padding-top: 4.3em;
+        text-align: center;
+    }
+
+    #intro p {
+        padding-top: 20px;
+        font-size: 1.2em;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .first-hero {
+        min-height: 50vh;
+        background-position: center;
+    }
+
+    /* SECOND HERO */
+    .second-hero {
+        flex-direction: column;
+        gap: 2em;
+        padding: 1.5em;
+    }
+
+    #visuals div {
+        padding-left: 0;
+        padding-top: 0;
+        text-align: center;
+    }
+
+    .vs-head {
+        padding: 1em;
+    }
+
+    #visuals .data {
+        font-size: 1.6em;
+    }
+
+    #visuals .data-dp {
+        width: 100%;
+        font-size: 0.9em;
+    }
+
+    #descriptions {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+
+    /* THIRD HERO */
+    .third-hero h1 {
+        font-size: 2.5em;
+    }
+
+    .causes-img {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .third-hero img {
+        width: 70vw;
+        height: auto;
+    }
+
+    /* INTERCONNECTED */
+    .interconnected-content {
+        flex-direction: column;
+        padding: 1em;
+    }
+
+    .interconnected p {
+        width: 100%;
+        font-size: 1em;
+    }
+
+    /* FOURTH HERO */
+    .fourth-hero {
+        height: auto;
+        padding: 1em;
+    }
+
+    .fourth-hero div {
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .fourth-hero p {
+        width: 100%;
+        font-size: 1em;
+    }
+
+    .fourth-hero-bullets li {
+        width: 100%;
+    }
+
+    /* FIFTH HERO */
+    .fifth-hero {
+        height: auto;
+        padding: 1.5em;
+    }
+
+    .fifth-hero-descrip p {
+        width: 100%;
+        font-size: 1em;
+        text-align: center;
+        text-align: justify;
+    }
+
+    /* ABOUT US */
+    .about-us-header p {
+        width: 90%;
+    }
+
+    .research-objective p {
+        width: 90%;
+        font-size: 1.1em;
+    }
+
+    .pictures img {
+        width: 70vw;
+        height: auto;
+    }
+
+    /* REFERENCES */
+    .Refference .container-links {
+        width: 90%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* FOOTER */
+    footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 2em;
+    }
+    
+    footer .data-footer {
+        justify-content: center;
+        margin-top: 10px;
+    }
+}
