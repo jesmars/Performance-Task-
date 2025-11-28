@@ -10,6 +10,8 @@
 
 body {
     background-color: #013206;
+    height: auto;
+    width: auto;
 }
 
 hr{
@@ -17,9 +19,20 @@ hr{
     border-width: 1px;
     border-style: dashed;
     margin-bottom: 2em;
+    width: auto;
 }
 
 /* first-hero */
+
+.first-hero{
+    position: relative;
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 40vh;
+    min-width: auto;
+}
 
 #intro h1{
      position: relative;
@@ -37,35 +50,30 @@ hr{
     padding-left: 2em;
 }
 
-.first-hero{
-    position: relative;
-    background-image: url(images/bg.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 40vh;
-    min-width: auto;
-}
+
 
 /* second-hero */
 
 .second-hero{
     display: flex;
     justify-content: space-between;
-    gap: 20em;
+    gap: 10em;
     font-family: Mono;
     background-color: #001902;
 }
 
 #visuals div{
-    padding-left: 10em;
-    padding-top: 2em;
     color: #ffffff8d;
+    flex: 1 1 auto;
+    padding-left: 3em;
+
 }
 
 #visuals .vs-head{
     font-size: 1.2em;
     padding-bottom: 5px;
+    padding-top: 5px;
+    font-weight: bolder;
 }
 
 #visuals .data{
@@ -81,10 +89,9 @@ hr{
 
 #descriptions{
     color:#ffffff8d ;
-    width: 70em;
     text-align: left;
-    padding-top: 9em;
-    padding-right: 8em;
+    padding: 5em;
+
 }
 
 /* third-hero */
@@ -163,75 +170,83 @@ hr{
 /* fourth-hero */
 
 .fourth-hero{
-     height: 75vh;
+     height: auto;
 }
 
-.fourth-hero div{
+
+
+/* Fourth Hero Container */
+.fourth-hero div {
     display: flex;
     justify-content: center;
-    gap: 5em;
+    flex-wrap: wrap;
+    gap: 3em;
 }
 
-.fourth-hero h1{
-    color:white;
-    font-family: Mono;
-}
-
-.fourth-hero p{
+/* Paragraph responsiveness */
+.fourth-hero p {
     color: #d3d3d3;
-    width: 50%;
     font-size: 1.2em;
     font-family: Mono;
-    text-align: justify; 
-    margin-top: 2em;
-    font-weight: 0;
-    margin-bottom: 4em;
+    text-align: justify;
+    width: min(700px, 90%);
+    padding-bottom: 2em;
 }
 
 
-.fourth-hero-bullets div{
+
+.fourth-hero-bullets {
     display: flex;
+    flex-wrap: wrap;       
+    gap: 2em;
     justify-content: center;
-    flex-direction: column;
+}
+
+
+.fourth-hero-bullets div {
+
     background-color: #001902;
     padding: 1.3em;
     border-radius: 9px;
+    flex: 1 1 auto;
+    max-width: 50vh;
 }
 
-.fourth-hero-bullets h2{
+
+.fourth-hero-bullets h2 {
     color: #d3d3d3;
     font-family: Mono;
     font-size: 1.3em;
     text-align: center;
 }
 
-
-.fourth-hero-bullets li{
+.fourth-hero-bullets li {
     list-style: none;
-    width: 30em;
     color: #d3d3d3;
     font-family: Mono;
     margin: 0;
+    width: 100%;         
 }
 
-.fourth-hero-bullets ul{
+/* UL reset */
+.fourth-hero-bullets ul {
     margin: 0;
     padding: 0;
-
 }
 
-.fourth-hero-bullets a{
+/* Source links */
+.fourth-hero-bullets a {
     color: gray;
     font-size: 10px;
     background-color: black;
-
 }
 
 /* fifth-hero */
 
 .fifth-hero{
     background-color: #001902;
-    height: 42vh;
+    height: auto;
+
 }
 
 .fifth-hero h1{
